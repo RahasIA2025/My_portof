@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio - Khozin</title>
+    <!-- Bootstrap 5 CDN CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts & Custom CSS opsional -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        background-color: #f4f6f9;
+        color: #2b2d42;
+      }
+      .font-serif {
+        font-family: "Playfair Display", serif;
+      }
+      /* Styling khusus hero section */
+      .hero-section {
+        min-height: 100vh;
+        background: linear-gradient(135deg, #e9edf0 0%, #cbd5e1 100%);
+        position: relative;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAVBAR SECTION -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-4 px-lg-5">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold font-serif fs-3 tracking-wide" href="#"
+          >KHOZIN.</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav align-items-center gap-4">
+            <li class="nav-item">
+              <a class="nav-link active fw-medium" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-medium" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-medium" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-medium" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button
+                class="btn btn-outline-dark rounded-pill px-3 py-1 btn-sm"
+              >
+                🌙
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
+<!-- HERO SECTION -->
+<section id="home" class="hero-section d-flex align-items-center pt-5">
+  <div class="container-fluid px-lg-5">
+    <div class="row align-items-center min-vh-100">
+      <!-- Sisi Kiri: Teks & Informasi Utama -->
+      <div class="col-lg-6 ps-lg-5 py-5 mt-5 mt-lg-0">
+        <div class="d-flex align-items-start">
+          <!-- Indikator Angka Slide di Kiri -->
+          <div class="me-4 text-muted small d-none d-md-block border-end pe-3">
+            <span class="text-dark fw-bold">01</span><br />/<br />04
+          </div>
+          <div>
+            <h1 class="display-3 font-serif fw-bold mb-3">
+              Ane,<br />Khozin.
+            </h1>
+            <p class="text-muted fst-italic fs-5 mb-4">
+              Phone service, Software Hardware solution
+            </p>
+            <hr class="w-25 border-dark mb-4" style="opacity: 0.5" />
+            <p class="text-secondary mb-4" style="max-width: 400px">
+              Masih belajar, Terus belajar,Tetap belajar
+            </p>
+            <a
+              href="#about"
+              class="btn btn-dark rounded-pill px-4 py-2 shadow-sm"
+            >
+              Learn More <span class="ms-2">↓</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sisi Kanan: Area Visual / Foto Profil & Kucing -->
+      <div
+        class="col-lg-6 position-relative p-0 overflow-hidden h-100 d-flex align-items-end justify-content-end"
+      >
+        <!-- Placeholder untuk menampung gambar/komposisi foto -->
+        <div
+          class="w-100 text-center"
+          style="
+            min-height: 450px;
+            background: rgba(0, 0, 0, 0.03);
+            border-radius: 20px 0 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          "
+        >
+          <span class="text-muted small">
+            [ Area Foto Profil & Kucing ]<br />
+            <em>Letakkan gambar hasil edit Anda di folder assets/img/</em>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ABOUT SECTION -->
+<section id="about" class="py-5 bg-white">
+  <div class="container py-lg-5">
+    <div class="row align-items-center">
+      <!-- Kolom Foto/Ilustrasi Pendukung About -->
+      <div class="col-lg-5 mb-4 mb-lg-0">
+        <div class="p-4 bg-light rounded-4 shadow-sm text-center">
+          <h5 class="font-serif fw-bold text-dark mb-2">Profil Singkat</h5>
+          <p class="text-muted small">
+            Eksplorasi teknologi & pemecahan masalah.
+          </p>
+          <!-- Anda bisa menyisipkan foto tambahan di sini jika mau -->
+        </div>
+      </div>
+      <!-- Kolom Teks Biografi -->
+      <div class="col-lg-7 ps-lg-5">
+        <h6
+          class="text-uppercase text-secondary tracking-wider fw-bold small mb-2"
+        >
+          Tentang Saya
+        </h6>
+        <h2 class="font-serif fw-bold mb-4">
+          Mengenal Lebih Dekat Perjalanan & Latar Belakang Saya
+        </h2>
+        <p class="text-secondary mb-3">
+          Halo! Ane adalah seorang introvert yang memiliki ketertarikan mendalam
+          di bidang pengembangan teknologi, teknik, dan eksplorasi hal-hal baru.
+          Berbekal latar belakang pendidikan dan pengalaman di bidang terkait,
+          saya terbiasa mengubah ide-ide kreatif menjadi solusi nyata secara
+          sistematis.
+        </p>
+        <p class="text-secondary mb-4">
+          Sebagai seorang <em>Developer</em> dan <em>Technician</em>, saya
+          selalu berfokus pada ketelitian, efisiensi, dan pengembangan diri yang
+          berkelanjutan dalam menghadapi setiap tantangan teknis.
+        </p>
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <div class="p-3 border rounded-3 bg-light">
+              <span class="fw-bold d-block text-dark">Fokus Karir</span>
+              <span class="text-muted small"
+                >Web Development & Tech Engineering</span
+              >
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="p-3 border rounded-3 bg-light">
+              <span class="fw-bold d-block text-dark">Prinsip Kerja</span>
+              <span class="text-muted small"
+                >Solutif, Inovatif, & Terstruktur</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- SKILLS / KOMPETENSI & BAHASA SECTION (Sesuai Sketsa + Ketentuan Tugas) -->
+    <!-- SKILLS / KOMPETENSI & BAHASA SECTION (Clickable Cards & <img> Ready) -->
+    <section id="skills" class="py-5 bg-white">
+        <div class="container py-5">
+            
+            <!-- Judul Section -->
+            <div class="text-center mb-5">
+                <h6 class="text-uppercase text-secondary fw-bold small mb-2">Kompetensi & Kemampuan</h6>
+                <h2 class="font-serif fw-bold display-5">Keahlian & Bahasa</h2>
+                <hr class="w-25 mx-auto border-dark" style="opacity: 0.5;">
+            </div>
+
+            <!-- Grid Kartu Kompetensi (6 Kotak: 3 Kolom x 2 Baris) -->
+            <div class="row g-4 justify-content-center">
+                
+                <!-- Kotak 1: Web Development -->
+                <div class="col-md-4 col-sm-6">
+                    <a href="#details" class="text-decoration-none">
+                        <div class="card border-0 shadow-sm h-100 p-4 text-center rounded-4 bg-light transition-hover">
+                            <div class="card-body d-flex flex-column align-items-center">
+                                <!-- Area Kolom Gambar (img) & Tombol/Badge (butt) -->
+                                <div class="mb-3 position-relative">
+                                    <div class="rounded-circle bg-white shadow-sm overflow-hidden d-flex align-items-center justify-content-center" style="width: 75px; height: 75px;">
+                                        <!-- Ganti src dengan path gambar Anda, misal: assets/img/web.png -->
+                                        <img src="assets/img/web-placeholder.png" alt="Web Development" class="w-100 h-100 object-fit-cover">
+                                    </div>
+                                    <span class="badge bg-dark rounded-pill position-absolute bottom-0 end-0">Pro</span>
+                                </div>
+                                <!-- Tulisan -->
+                                <h5 class="fw-bold font-serif mb-2 text-dark">Phone Hardware service</h5>
+                                <p class="text-muted small mb-3">HTML5, Bootstrap 5, CSS3, Responsive Layout.</p>
+                                <!-- Progress Bar -->
+                                <div class="progress w-100 mt-auto" style="height: 6px;">
+                                    <div class="progress-bar bg-dark" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Kotak 2: Graphic & UI Design -->
+                <div class="col-md-4 col-sm-6">
+                    <a href="#details" class="text-decoration-none">
+                        <div class="card border-0 shadow-sm h-100 p-4 text-center rounded-4 bg-light transition-hover">
+                            <div class="card-body d-flex flex-column align-items-center">
+                                <div class="mb-3 position-relative">
+                                    <div class="rounded-circle bg-white shadow-sm overflow-hidden d-flex align-items-center justify-content-center" style="width: 75px; height: 75px;">
+                                        <img src="assets/img/design-placeholder.png" alt="UI Design" class="w-100 h-100 object-fit-cover">
+                                    </div>
+                                    <span class="badge bg-dark rounded-pill position-absolute bottom-0 end-0">Expert</span>
+                                </div>
+                                <h5 class="fw-bold font-serif mb-2 text-dark">UI & Visual Design</h5>
+                                <p class="text-muted small mb-3">Color Grading, Photo Editing, Layouting.</p>
+                                <div class="progress w-100 mt-auto" style="height: 6px;">
+                                    <div class="progress-bar bg-dark" style="width: 88%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Kotak 3: Technical Troubleshooting -->
+                <div class="col-md-4 col-sm-6">
+                    <a href="#details" class="text-decoration-none">
+                        <div class="card border-0 shadow-sm h-100 p-4 text-center rounded-4 bg-light transition-hover">
+                            <div class="card-body d-flex flex-column align-items-center">
+                                <div class="mb-3 position-relative">
+                                    <div class="rounded-circle bg-white shadow-sm overflow-hidden d-flex align-items-center justify-content-center" style="width: 75px; height: 75px;">
+                                        <img src="assets/img/tech-placeholder.png" alt="Hardware" class="w-100 h-100 object-fit-cover">
+                                    </div>
+                                    <span class="badge bg-dark rounded-pill position-absolute bottom-0 end-0">Advance</span>
+                                </div>
+                                <h5 class="fw-bold font-serif mb-2 text-dark">Technical & Hardware</h5>
+                                <p class="text-muted small mb-3">Maintenance perangkat & Problem Solving.</p>
+                                <div class="progress w-100 mt-auto" style="height: 6px;">
+                                    <div class="progress-bar bg-dark" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Kotak 4: Git & Version Control -->
+                <div class="col-md-4 col-sm-6">
+                    <a href="#details" class="text-decoration-none">
+                        <div class="card border-0 shadow-sm h-100 p-4 text-center rounded-4 bg-light transition-hover">
+                            <div class="card-body d-flex flex-column align-items-center">
+                                <div class="mb-3 position-relative">
+                                    <div class="rounded-circle bg-white shadow-sm overflow-hidden d-flex align-items-center justify-content-center" style="width: 75px; height: 75px;">
+                                        <img src="assets/img/git-placeholder.png" alt="Git" class="w-100 h-100 object-fit-cover">
+                                    </div>
+                                    <span class="badge bg-secondary rounded-pill position-absolute bottom-0 end-0">Active</span>
+                                </div>
+                                <h5 class="fw-bold font-serif mb-2 text-dark">Git & GitHub</h5>
+                                <p class="text-muted small mb-3">Repository Management & Pages Deploy.</p>
+                                <div class="progress w-100 mt-auto" style="height: 6px;">
+                                    <div class="progress-bar bg-dark" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Kotak 5: Bahasa Indonesia -->
+                <div class="col-md-4 col-sm-6">
+                    <a href="#details" class="text-decoration-none">
+                        <div class="card border-0 shadow-sm h-100 p-4 text-center rounded-4 bg-light transition-hover">
+                            <div class="card-body d-flex flex-column align-items-center">
+                                <div class="mb-3 position-relative">
+                                    <div class="rounded-circle bg-white shadow-sm overflow-hidden d-flex align-items-center justify-content-center" style="width: 75px; height: 75px;">
+                                        <img src="assets/img/id-placeholder.png" alt="ID" class="w-100 h-100 object-fit-cover">
+                                    </div>
+                                    <span class="badge bg-success rounded-pill position-absolute bottom-0 end-0">Native</span>
+                                </div>
+                                <h5 class="fw-bold font-serif mb-2 text-dark">Bahasa Indonesia</h5>
+                                <p class="text-muted small mb-3">Penutur asli, komunikasi formal & teknis.</p>
+                                <div class="progress w-100 mt-auto" style="height: 6px;">
+                                    <div class="progress-bar bg-success" style="width: 100%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Kotak 6: Bahasa Inggris -->
+                <div class="col-md-4 col-sm-6">
+                    <a href="#details" class="text-decoration-none">
+                        <div class="card border-0 shadow-sm h-100 p-4 text-center rounded-4 bg-light transition-hover">
+                            <div class="card-body d-flex flex-column align-items-center">
+                                <div class="mb-3 position-relative">
+                                    <div class="rounded-circle bg-white shadow-sm overflow-hidden d-flex align-items-center justify-content-center" style="width: 75px; height: 75px;">
+                                        <img src="assets/img/en-placeholder.png" alt="EN" class="w-100 h-100 object-fit-cover">
+                                    </div>
+                                    <span class="badge bg-dark rounded-pill position-absolute bottom-0 end-0">Intermediate</span>
+                                </div>
+                                <h5 class="fw-bold font-serif mb-2 text-dark">Bahasa Inggris</h5>
+                                <p class="text-muted small mb-3">Pemahaman dokumentasi teknis & dasar.</p>
+                                <div class="progress w-100 mt-auto" style="height: 6px;">
+                                    <div class="progress-bar bg-dark" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div> <!-- End Row -->
+
+            <!-- Teks Box Besar di Bagian Bawah Sesuai Sketsa -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="p-4 p-lg-5 rounded-4 bg-light border shadow-sm">
+                        <div class="d-flex flex-wrap justify-content-between align-items-center mb-3 gap-2">
+                            <h4 class="font-serif fw-bold mb-0">Ringkasan Kompetensi & Soft Skills</h4>
+                            <div>
+                                <span class="badge bg-dark me-1">Problem Solving</span>
+                                <span class="badge bg-secondary me-1">Analytical Thinking</span>
+                                <span class="badge bg-secondary me-1">Visual Aesthetics</span>
+                                <span class="badge bg-secondary">Teamwork</span>
+                            </div>
+                        </div>
+                        <p class="text-secondary mb-0">
+                            Menggabungkan kemampuan teknis pengembangan web dan pemecahan masalah perangkat dengan kepekaan estetika desain visual (color grading dan manipulasi foto) untuk membangun antarmuka digital yang bersih, fungsional, dan menarik.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+<!-- HOBBIES & INTERESTS SECTION -->
+    <section id="hobbies" class="py-5 bg-white">
+        <div class="container py-lg-4">
+            <div class="text-center mb-5">
+                <h6 class="text-uppercase text-secondary tracking-wider fw-bold small mb-2">Aktivitas Kegemaran</h6>
+                <h2 class="font-serif fw-bold">Hobi & Minat Pendukung</h2>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="p-4 border rounded-4 text-center h-100 bg-light">
+                        <div class="fs-1 mb-3">💻</div>
+                        <h5 class="font-serif fw-bold mb-2">Eksplorasi Teknologi</h5>
+                        <p class="text-muted small mb-0">Mempelajari framework baru, merakit perangkat keras, dan memecahkan teka-teki logika pemrograman.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 border rounded-4 text-center h-100 bg-light">
+                        <div class="fs-1 mb-3">🎨</div>
+                        <h5 class="font-serif fw-bold mb-2">Desain & Visual</h5>
+                        <p class="text-muted small mb-0">Mengedit foto, melakukan color grading, serta merancang tata letak antarmuka web yang estetis.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 border rounded-4 text-center h-100 bg-light">
+                        <div class="fs-1 mb-3">🌍</div>
+                        <h5 class="font-serif fw-bold mb-2">Eksplorasi Alam & Fotografi</h5>
+                        <p class="text-muted small mb-0">Menjelajahi lingkungan sekitar, mengamati detail visual, dan menangkap momen melalui lensa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-5 bg-light border-top">
+        <div class="container py-lg-4 text-center">
+            <h6 class="text-uppercase text-secondary tracking-wider fw-bold small mb-2">Hubungi Saya</h6>
+            <h2 class="font-serif fw-bold mb-3">Mari Terhubung & Berkolaborasi</h2>
+            <p class="text-muted mb-4 mx-auto" style="max-width: 500px;">
+                Punya pertanyaan, proyek menarik, atau ingin berdiskusi seputar teknologi? Jangan ragu untuk menghubungi saya.
+            </p>
+            <a href="mailto:emailanda@example.com" class="btn btn-dark rounded-pill px-5 py-3 shadow-sm">
+                Kirim Email ✉️
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-4 bg-dark text-white text-center">
+        <div class="container">
+            <p class="small mb-0 text-white-50">
+                &copy; 2026 Khozin. Dibangun dengan HTML5 & Bootstrap 5 untuk Tugas Portofolio Pribadi.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 CDN JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
